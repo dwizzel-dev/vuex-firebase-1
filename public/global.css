@@ -1,0 +1,77 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+}
+h1 {
+  font-weight: bold;
+}
+.app-wrapper {
+  width:100%;
+}
+#app {
+  padding: 10px;
+}
+/* before the app load */
+div.logo{
+  text-align: center
+}
+div.logo > h1{
+  text-align: center;
+}
+div.logo > img{
+  width: 100%;
+  height: auto;
+  max-width: 460px;
+  margin-bottom: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+.loading-icon {
+	width: 100%;
+  text-align: center;
+}
+
+.loading-icon img{
+	width: 30px;
+  height: auto;
+}
+
+.loading {
+	-webkit-animation-name: loading; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1.0s; /* Chrome, Safari, Opera */
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+	animation-name: loading;
+	animation-duration: 1.0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+
+}
+
+@-webkit-keyframes loading {
+	from {
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes loading {
+	from {
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+	}
+}
+
